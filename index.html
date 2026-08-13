@@ -15,6 +15,87 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
+    <!-- ======================== MOBILE HERO FIX ======================== -->
+<style id="mobile-hero-fix">
+
+    /* Tablets and mobile devices */
+    @media (max-width: 768px) {
+
+        .hero {
+            min-height: auto !important;
+            height: auto !important;
+            padding: 5.5rem 1rem 3rem !important;
+            justify-content: flex-start !important;
+        }
+
+        .hero-container {
+            display: flex !important;
+            flex-direction: column-reverse !important;
+            align-items: center !important;
+            justify-content: flex-start !important;
+            gap: 1.5rem !important;
+            width: 100% !important;
+        }
+
+        .hero-content {
+            width: 100% !important;
+            max-width: 100% !important;
+            text-align: center !important;
+        }
+
+        .hero-image {
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+            width: 100% !important;
+        }
+
+        .hero-image-wrapper {
+            width: 220px !important;
+            height: 220px !important;
+            margin: 0 auto !important;
+        }
+
+        .hero-buttons {
+            justify-content: center !important;
+            flex-wrap: wrap !important;
+        }
+
+        /* Remove unnecessary empty space */
+        .hero-scroll {
+            display: none !important;
+        }
+    }
+
+
+    /* Small mobile phones */
+    @media (max-width: 480px) {
+
+        .hero {
+            min-height: auto !important;
+            height: auto !important;
+            padding: 5.25rem 1rem 2.5rem !important;
+        }
+
+        .hero-container {
+            gap: 1.25rem !important;
+        }
+
+        .hero-image-wrapper {
+            width: 205px !important;
+            height: 205px !important;
+        }
+
+        .hero-buttons {
+            gap: 0.75rem !important;
+        }
+    }
+
+</style>
+<!-- ======================== END MOBILE HERO FIX ======================== -->
+
+
 </head>
 <body>
 
@@ -713,7 +794,7 @@
                     <div class="edu-card">
                         <span class="edu-year">2022 - 2024</span>
                         <h3 class="edu-degree">Master of Computer Applications (MCA)</h3>
-                        <h4 class="edu-school">Mar Athanasios College for Advanced Studies (MACAS)</h4>
+                        <h4 class="edu-school">Mar Athanasios College for Advanced Studies (MACFAST)</h4>
                         <p class="edu-description">
                             Completed MCA with a strong focus on software development, web technologies, 
                             database management, and programming fundamentals. Participated in multiple 
